@@ -8,7 +8,7 @@ export default function Footer() {
 
     const handleEmailSubmit = () => {
         if (!email) return;
-        window.location.href = `mailto:anishlandage007@gmail.com?subject=Project Inquiry&body=Hi Anish,%0D%0A%0D%0AI'm interested in working with you. You can reach me at: ${email}`;
+        window.location.href = `mailto:anishlandage007@gmail.com?subject=Project%20Inquiry&body=Hi%20Anish%2CI'm%20interested%20in%20working%20with%20you.%20You%20can%20reach%20me%20at%3A ${email}`;
     };
 
     return (
